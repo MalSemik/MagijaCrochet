@@ -1,0 +1,245 @@
+body {
+
+    position: relative;
+}
+
+h2,
+h3,
+h4,
+p {
+
+    text-align: center;
+}
+
+h2,
+h3,
+h4 {
+    font-family: 'Dancing Script', cursive;
+
+}
+
+h2 {
+    padding-top: 18vh;
+    padding-bottom: 8vh;
+    font-size: 3rem;
+}
+
+/* .about h2 {
+    padding-top: 2vh;
+} */
+
+h3 {
+    padding-top: 3vh;
+    font-size: 2.5rem;
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav a {
+    font-family: 'Dancing Script', cursive;
+    color: #000;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.navbar-brand img {
+    height: 15vh;
+}
+
+.navbar {
+    opacity: 0.8;
+}
+
+header {
+    background-image: url(../img/wool-1142179_1920.jpg);
+    height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    position: relative;
+    background-position: -20vw;
+    background-repeat: no-repeat;
+
+}
+
+header h1 {
+    color: #fff;
+    line-height: 100vh;
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.logo img {
+    position: absolute;
+    top: 30%;
+    left: 23%;
+}
+
+@media(min-width:1024px) {
+    header {
+        height: 120vh;
+        width: 100vw;
+        background-size: cover;
+        position: relative;
+        background-position: 0;
+        background-position-y: -40vh;
+        background-repeat: no-repeat;
+    }
+
+    .logo img {
+        width: 17vw;
+        top: 23%;
+        left: 40%;
+        border-radius: 90%;
+        opacity: 0.8;
+    }
+}
+
+.about {
+    text-align: center;
+}
+
+.why article {
+    min-height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coinsidence,
+.personality {
+    background-color: rgb(255, 246, 253);
+}
+
+.maths,
+.passion {
+    background-color: rgb(245, 255, 247);
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why img {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+
+}
+
+@media(min-width:1024px) {
+    .slide {
+        flex-direction: row;
+        padding: 0 10vw 0 10vw;
+    }
+
+    .slide img {
+        margin-right: 5vw;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .why img {
+        width: 40vh;
+        height: 40vh;
+        border-radius: 50%;
+        margin-bottom: 5vh;
+        margin-top: 2vh;
+
+    }
+
+    .reverse {
+        flex-direction: row-reverse;
+    }
+
+    .reverse img {
+        margin-left: 5vw;
+    }
+}
+
+.offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer .card-header a {
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+.offer .card-header h4 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.offer .card {
+    width: 90vw;
+    margin-bottom: 5vh;
+}
+
+.offer .card .rose {
+    width: 80vw;
+    margin-bottom: 5vh;
+}
+
+.card-header {
+    cursor: pointer;
+}
+
+@media(min-width:1024px) {
+    .offer .card {
+        width: 90vw;
+        margin-bottom: 5vh;
+    }
+
+    p {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .offer .card .rose {
+        width: 25%;
+        margin: 5vh;
+    }
+
+    .offer .group {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}
+
+footer {
+    height: 30vh;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    bottom: -30vh;
+    left: 0;
+    width: 100%;
+}
+
+footer h2 {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}

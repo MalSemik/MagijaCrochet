@@ -54,6 +54,8 @@ nav a {
 
 .navbar-brand img {
     height: 15vh;
+    border-radius: 90%;
+    opacity: 0.8;
 }
 
 .navbar {
@@ -83,6 +85,8 @@ header h1 {
     position: absolute;
     top: 30%;
     left: 23%;
+    border-radius: 90%;
+    opacity: 0.8;
 }
 
 @media(min-width:1024px) {
@@ -100,8 +104,7 @@ header h1 {
         width: 17vw;
         top: 23%;
         left: 40%;
-        border-radius: 90%;
-        opacity: 0.8;
+
     }
 }
 
@@ -109,38 +112,6 @@ header h1 {
     text-align: center;
 }
 
-.why article {
-    min-height: 50vh;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.coinsidence,
-.personality {
-    background-color: rgb(255, 246, 253);
-}
-
-.maths,
-.passion {
-    background-color: rgb(245, 255, 247);
-}
-
-.slide {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.why img {
-    width: 25vh;
-    height: 25vh;
-    border-radius: 50%;
-    margin-bottom: 5vh;
-    margin-top: 2vh;
-
-}
 
 @media(min-width:1024px) {
     .slide {
@@ -230,11 +201,11 @@ header h1 {
 }
 
 footer {
-    height: 30vh;
+    height: 45vh;
     position: absolute;
     background-color: #333;
     color: #fff;
-    bottom: -30vh;
+    bottom: -45vh;
     left: 0;
     width: 100%;
 }
